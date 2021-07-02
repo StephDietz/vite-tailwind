@@ -1,9 +1,15 @@
 <template>
   <div class="flex flex-col items-center justify-center">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <h1>{{ msg }}</h1>
-    <button @click="count++">count is: {{ count }}</button>
-    <p class="text-pink-400">Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
+    <img alt="Vercel logo" src="../assets/vercel.png" />
+    <h1 class="text-7xl font-semibold text-white my-12">Develop. Preview. Ship.</h1>
+    <div class="text-lg text-gray-300 text-center text-white">
+      <p>Deployed by Vercel</p>
+      <p>Built with Vue.js and Tailwind.css</p>
+    </div>
+    <div class="flex items-center mt-8">
+      <img alt="Vue logo" class="h-10 mr-8" src="../assets/logo.png" />
+      <img alt="Tailwind logo" class="h-8" src="../assets/tailwindcss.svg" />
+    </div>
   </div>
 </template>
 

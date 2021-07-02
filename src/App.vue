@@ -1,5 +1,7 @@
 <template>
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div class="bg-black h-screen">
+    <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  </div>
 </template>
 
 <script>
