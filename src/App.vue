@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black h-screen">
+  <div class="h-screen">
     <HelloWorld msg="Hello Vue 3.0 + Vite" />
   </div>
 </template>
