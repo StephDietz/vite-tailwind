@@ -1,19 +1,16 @@
 <template>
   <div class="p-2">
     <div class="text-xs my-2">
-      In this tutorial, we’ll build a web app from scratch using some of the most cutting-edge and popular frameworks and tools. We make no compromises when it comes to building an amazing product - this includes performance, scale, customizability, and developer experience (making you as efficient as possible)! By the end of this tutorial you will have a solid starting point for your project, whether it’s the next Coinbase or a simple landing page!
+      This tutorial will give you a solid starting point for setting up Tailwind in your Vue 3 and Vite project, with an understanding of how to instantly deploy it with Vercel. If you want to directly add and deploy a Vue.js project to Vercel from a template, checkout https://vercel.com/docs#quickstarts . If you want to jump straight to the example, you can view the code here https://github.com/StephDietz/vite-tailwind and the deployed example here https://vue-tailwind-vercel-nu.vercel.app/ .
     </div>
     <div class="text-xs my-2">
-      Our stack starts with Vue.js, a modern and lightweight javascript framework. We’ll use Tailwind as our CSS framework because it integrates seamlessly with Vue, and will make it a breeze for us to create beautiful and responsive user interfaces without ever leaving our HTML. We’ll then ship our web app in a few clicks with Vercel! We point Vercel at our web app’s GitHub repo, and as we push commits to the repo’s main branch, Vercel automatically deploys and updates our live website! *So much for dev-ops, with this stack we have super powers!* Behind the scenes we’ll use Vite as our build tool, it provides a faster and leaner development experience for modern web projects. We won’t see it much after the initial setup, but rest assured we’re standing on the shoulders of giants.
-    </div>
-    <div class="text-xs my-2">
-      This stack is as simple and minimal as they come, but I swear by it, and believe its state of the art around the board. This is how I start any new project, and I’ve arrived at it by constantly upgrading and refining my approach as I’ve built out frontends and products. It’ll take you a long way and serve you well! You can see some examples of other web apps I’ve built with this same stack on my Youtube: https://www.youtube.com/channel/UCr8BLoBSZtmVr31UEfCiQfA
+      Our stack starts with Vue.js, a modern and lightweight javascript framework. Behind the scenes we’ll use Vite, a build tool that aims to provide a faster development experience. We’ll then install Tailwind as our CSS framework, as it integrates seamlessly with Vue, and will make it a breeze for us to create beautiful and responsive user interfaces. We’ll then ship our web app in a few clicks with Vercel!
     </div>
     <div class="text-xs my-2">
       Let’s get started!
     </div>
     <div class="text-xs my-2">
-      Prerequisites - you’ll need Node and npm installed, git installed, and familiarity with the command line.
+      <span class="font-semibold">Prerequisites:</span> You’ll need Node.js installed, git installed, and familiarity with the command line.
     </div>
   </div>
 </template>
