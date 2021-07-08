@@ -21,13 +21,72 @@
           </button>
         </div>
       </div>
-      <div class="md:w-1/2 p-4">
+      <!-- <div class="md:w-1/2 p-4">
         <div class="p-6 border rounded overflow-hidden h-full" style="background-color: #fafafa;">
           <p class="font-semibold text-2xl pb-4">Learn More</p>
           <div class="flex flex-wrap">
             <div v-for="item in cards" :key="item.name" class="md:w-1/2">
               <div class="px-2 py-4">
                 <Card :name="item.name" :src="item.src" :logo="item.logo" :link="item.link"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="md:w-1/2 p-4">
+        <div class="p-6 border rounded overflow-hidden h-full" style="background-color: #fafafa;">
+          <p class="font-semibold text-2xl pb-4">Learn More</p>
+          <div class="flex flex-wrap">
+            <div class="md:w-1/2">
+              <div class="px-2 py-4">
+                <div @click="openWebPage('https://vuejs.org/')" class="w-full h-full bg-white rounded-md shadow-md hover:shadow-lg">
+                  <div class="relative w-full">
+                    <img class="rounded-md" src="../assets/vueHome.png" alt="">
+                  </div>
+                  <div class="bg-white p-3 flex items-center">
+                    <img src="../assets/logo.png" alt="" class="h-5 mr-2">
+                    <p class="text-sm font-semibold text-gray-500 truncate"> Vue.js </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2">
+              <div class="px-2 py-4">
+                <div @click="openWebPage('https://tailwindcss.com/')" class="w-full h-full bg-white rounded-md shadow-md hover:shadow-lg">
+                  <div class="relative w-full">
+                    <img class="rounded-md" src="../assets/tailwindHome.png" alt="">
+                  </div>
+                  <div class="bg-white p-3 flex items-center">
+                    <img src="../assets/tailwindcss.svg" alt="" class="h-5 mr-2">
+                    <p class="text-sm font-semibold text-gray-500 truncate"> Tailwind CSS </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2">
+              <div class="px-2 py-4">
+                <div @click="openWebPage('https://vercel.com/')" class="w-full h-full bg-white rounded-md shadow-md hover:shadow-lg">
+                  <div class="relative w-full">
+                    <img class="rounded-md" src="../assets/vercelHome.png" alt="">
+                  </div>
+                  <div class="bg-white p-3 flex items-center">
+                    <img src="../assets/vercelSmall.svg" alt="" class="h-5 mr-2">
+                    <p class="text-sm font-semibold text-gray-500 truncate"> Vercel </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2">
+              <div class="px-2 py-4">
+                <div @click="openWebPage('https://vitejs.dev/')" class="w-full h-full bg-white rounded-md shadow-md hover:shadow-lg">
+                  <div class="relative w-full">
+                    <img class="rounded-md" src="../assets/viteHome.png" alt="">
+                  </div>
+                  <div class="bg-white p-3 flex items-center">
+                    <img src="../assets/viteLogo.svg" alt="" class="h-5 mr-2">
+                    <p class="text-sm font-semibold text-gray-500 truncate"> Vite </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

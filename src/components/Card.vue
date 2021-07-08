@@ -14,6 +14,7 @@
 </template>
 
 <script>
+//import tailwindHome.png from './tailwindHome.png';
 export default {
   props: ['src', 'logo', 'name', 'link'],
   methods: {
